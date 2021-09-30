@@ -4,3 +4,4 @@
 
 #### Basic Components
 - [x] View 
+- [x] Text
