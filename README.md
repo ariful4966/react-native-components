@@ -9,3 +9,4 @@
 - [x] TextInput
 - [x] ScrollView
 - [x] SafeAreaView
+- [x] StyleSheet for create component Style
