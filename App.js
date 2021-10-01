@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import ViewComponent from './components/ViewComponent/ViewComponent';
 import TextComponent from './components/TextComponent/TextComponent';
 import ImgComponent from './components/ImgComponent/ImgComponent';
@@ -11,33 +11,35 @@ import SwitchComponet from './components/SwitchComponent/SwitchComponet';
 import FlatListComponent from './components/FlatListComponent.js/FlatListComponent';
 import SectionListComponent from './components/SectionListComponent/SectionListComponent';
 import BackHandlerComponent from './components/BackHandlerComponent/BackHandlerComponent';
+import DrawerLayoutComponent from './components/DrawerLayoutComponent/DrawerLayoutComponent';
 
 const App = () => {
   const style = StyleSheet.create({
-    sectionHeading:{
-      fontSize: 25, 
-      fontWeight: '800'
-    }
-  })
+    sectionHeading: {
+      fontSize: 25,
+      fontWeight: '800',
+    },
+  });
   return (
     <SafeAreaView>
       <ScrollView>
+        <DrawerLayoutComponent />
         <ViewComponent />
         <TextComponent />
         <ImgComponent />
         <TextInputComponent />
-        <ScrollViewComponent/>
-        <StyleComponent/>
+        <ScrollViewComponent />
+        <StyleComponent />
 
-        <ButtonComponent/>
-        <SwitchComponet/>
+        <ButtonComponent />
+        <SwitchComponet />
 
-        <FlatListComponent/>
-        <SectionListComponent/>
+        <FlatListComponent />
+        <SectionListComponent />
 
         <View>
           <Text style={style.sectionHeading}>Android Components and APIs</Text>
-          <BackHandlerComponent/>
+          <BackHandlerComponent />
         </View>
       </ScrollView>
     </SafeAreaView>

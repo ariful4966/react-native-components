@@ -27,3 +27,4 @@
 #### Android Components and APIs
 
 - [x] BackHandler
+- [x] DrawerLayout in Android
