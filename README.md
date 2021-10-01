@@ -20,3 +20,4 @@
 
 #### List Views
 - [x] FlatList
+- [x] SectionList
