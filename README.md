@@ -28,3 +28,5 @@
 
 - [x] BackHandler
 - [x] DrawerLayout in Android
+- [x] Permission Android
+- [x] Toast Android

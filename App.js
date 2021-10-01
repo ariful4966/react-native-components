@@ -12,6 +12,8 @@ import FlatListComponent from './components/FlatListComponent.js/FlatListCompone
 import SectionListComponent from './components/SectionListComponent/SectionListComponent';
 import BackHandlerComponent from './components/BackHandlerComponent/BackHandlerComponent';
 import DrawerLayoutComponent from './components/DrawerLayoutComponent/DrawerLayoutComponent';
+import PermissionAndroidComponent from './components/PermissionAndroidComponent/PermissionAndroidComponent';
+import AndroidTostMsgComponent from './components/AdroidTostMsgComponent/AndroidTostMsgComponent';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -40,7 +42,9 @@ const App = () => {
         <View>
           <Text style={style.sectionHeading}>Android Components and APIs</Text>
           <BackHandlerComponent />
+          <PermissionAndroidComponent/>
         </View>
+        <AndroidTostMsgComponent/>
       </ScrollView>
     </SafeAreaView>
   );
