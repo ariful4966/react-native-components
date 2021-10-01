@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, ScrollView } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
 import ViewComponent from './components/ViewComponent/ViewComponent';
 import TextComponent from './components/TextComponent/TextComponent';
 import ImgComponent from './components/ImgComponent/ImgComponent';
@@ -10,8 +10,15 @@ import ButtonComponent from './components/ButtonComponent/ButtonComponent';
 import SwitchComponet from './components/SwitchComponent/SwitchComponet';
 import FlatListComponent from './components/FlatListComponent.js/FlatListComponent';
 import SectionListComponent from './components/SectionListComponent/SectionListComponent';
+import BackHandlerComponent from './components/BackHandlerComponent/BackHandlerComponent';
 
 const App = () => {
+  const style = StyleSheet.create({
+    sectionHeading:{
+      fontSize: 25, 
+      fontWeight: '800'
+    }
+  })
   return (
     <SafeAreaView>
       <ScrollView>
@@ -27,6 +34,11 @@ const App = () => {
 
         <FlatListComponent/>
         <SectionListComponent/>
+
+        <View>
+          <Text style={style.sectionHeading}>Android Components and APIs</Text>
+          <BackHandlerComponent/>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );

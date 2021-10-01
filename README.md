@@ -3,6 +3,7 @@
 ## React Native Components
 
 #### Basic Components
+
 - [x] View 
 - [x] Text
 - [x] Image
@@ -19,5 +20,10 @@
 - [x] Switch
 
 #### List Views
+
 - [x] FlatList
 - [x] SectionList
+
+#### Android Components and APIs
+
+- [x] BackHandler
