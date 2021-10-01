@@ -6,6 +6,7 @@ import ImgComponent from './components/ImgComponent/ImgComponent';
 import TextInputComponent from './components/TextInputComponent/TextInputComponent';
 import ScrollViewComponent from './components/ScrollViewComponent/ScrollViewComponent';
 import StyleComponent from './components/StyleComponent/StyleComponent';
+import ButtonComponent from './components/ButtonComponent/ButtonComponent';
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <TextInputComponent />
         <ScrollViewComponent/>
         <StyleComponent/>
+
+        <ButtonComponent/>
       </ScrollView>
     </SafeAreaView>
   );
