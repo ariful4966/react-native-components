@@ -7,6 +7,7 @@ import TextInputComponent from './components/TextInputComponent/TextInputCompone
 import ScrollViewComponent from './components/ScrollViewComponent/ScrollViewComponent';
 import StyleComponent from './components/StyleComponent/StyleComponent';
 import ButtonComponent from './components/ButtonComponent/ButtonComponent';
+import SwitchComponet from './components/SwitchComponent/SwitchComponet';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <StyleComponent/>
 
         <ButtonComponent/>
+        <SwitchComponet/>
       </ScrollView>
     </SafeAreaView>
   );
