@@ -8,6 +8,7 @@ import ScrollViewComponent from './components/ScrollViewComponent/ScrollViewComp
 import StyleComponent from './components/StyleComponent/StyleComponent';
 import ButtonComponent from './components/ButtonComponent/ButtonComponent';
 import SwitchComponet from './components/SwitchComponent/SwitchComponet';
+import FlatListComponent from './components/FlatListComponent.js/FlatListComponent';
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
 
         <ButtonComponent/>
         <SwitchComponet/>
+
+        <FlatListComponent/>
       </ScrollView>
     </SafeAreaView>
   );
