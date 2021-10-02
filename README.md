@@ -36,3 +36,4 @@
 
 - [x] Activity Indicator
 - [x] Alert
+- [x] Animated 
