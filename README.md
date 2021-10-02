@@ -39,3 +39,4 @@
 - [x] Animated 
 - [x] Dimension
 - [x] KeyboardAvoidingView
+- [x] Linking

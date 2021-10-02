@@ -19,6 +19,7 @@ import AlertviewCompnent from './components/AlertViewComponent/AlertviewCompnent
 import AnimatedViewComponent from './components/AnimatedViewComponent/AnimatedViewComponent';
 import DimensionViewComponent from './components/DimensionViewComponent/DimensionViewComponent';
 import KeyboardAvoidingViewCompo from './components/KeyboardAvoidingViewCompo/KeyboardAvoidingViewCompo';
+import LinkingViewCompo from './components/LinkingViewCompo/LinkingViewCompo';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -59,6 +60,8 @@ const App = () => {
         <DimensionViewComponent/>
 
         <KeyboardAvoidingViewCompo/>
+
+        <LinkingViewCompo/>
       </ScrollView>
     </SafeAreaView>
   );
