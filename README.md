@@ -35,3 +35,4 @@
 #### Others Component
 
 - [x] Activity Indicator
+- [x] Alert

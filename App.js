@@ -15,6 +15,7 @@ import DrawerLayoutComponent from './components/DrawerLayoutComponent/DrawerLayo
 import PermissionAndroidComponent from './components/PermissionAndroidComponent/PermissionAndroidComponent';
 import AndroidTostMsgComponent from './components/AdroidTostMsgComponent/AndroidTostMsgComponent';
 import ActivityIndicatorComponent from './components/ActivityIndicatorComponent/ActivityIndicatorComponent';
+import AlertviewCompnent from './components/AlertViewComponent/AlertviewCompnent';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -48,6 +49,7 @@ const App = () => {
         <AndroidTostMsgComponent/>
 
         <ActivityIndicatorComponent/>
+        <AlertviewCompnent/>
       </ScrollView>
     </SafeAreaView>
   );
