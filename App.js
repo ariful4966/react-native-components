@@ -17,6 +17,7 @@ import AndroidTostMsgComponent from './components/AdroidTostMsgComponent/Android
 import ActivityIndicatorComponent from './components/ActivityIndicatorComponent/ActivityIndicatorComponent';
 import AlertviewCompnent from './components/AlertViewComponent/AlertviewCompnent';
 import AnimatedViewComponent from './components/AnimatedViewComponent/AnimatedViewComponent';
+import DimensionViewComponent from './components/DimensionViewComponent/DimensionViewComponent';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -53,6 +54,8 @@ const App = () => {
         <AlertviewCompnent/>
 
         <AnimatedViewComponent/>
+
+        <DimensionViewComponent/>
       </ScrollView>
     </SafeAreaView>
   );
