@@ -30,3 +30,8 @@
 - [x] DrawerLayout in Android
 - [x] Permission Android
 - [x] Toast Android
+
+
+#### Others Component
+
+- [x] Activity Indicator

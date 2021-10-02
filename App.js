@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import ViewComponent from './components/ViewComponent/ViewComponent';
 import TextComponent from './components/TextComponent/TextComponent';
 import ImgComponent from './components/ImgComponent/ImgComponent';
@@ -14,6 +14,7 @@ import BackHandlerComponent from './components/BackHandlerComponent/BackHandlerC
 import DrawerLayoutComponent from './components/DrawerLayoutComponent/DrawerLayoutComponent';
 import PermissionAndroidComponent from './components/PermissionAndroidComponent/PermissionAndroidComponent';
 import AndroidTostMsgComponent from './components/AdroidTostMsgComponent/AndroidTostMsgComponent';
+import ActivityIndicatorComponent from './components/ActivityIndicatorComponent/ActivityIndicatorComponent';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -45,6 +46,8 @@ const App = () => {
           <PermissionAndroidComponent/>
         </View>
         <AndroidTostMsgComponent/>
+
+        <ActivityIndicatorComponent/>
       </ScrollView>
     </SafeAreaView>
   );
