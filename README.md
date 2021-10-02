@@ -38,3 +38,4 @@
 - [x] Alert
 - [x] Animated 
 - [x] Dimension
+- [x] KeyboardAvoidingView
