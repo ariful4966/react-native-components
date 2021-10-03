@@ -22,6 +22,8 @@ import KeyboardAvoidingViewCompo from './components/KeyboardAvoidingViewCompo/Ke
 import LinkingViewCompo from './components/LinkingViewCompo/LinkingViewCompo';
 import ModalViewCompo from './components/ModalViewCompo/ModalViewCompo';
 import PixelRatioViewCompo from './components/PixelRatioViewCompo/PixelRatioViewCompo';
+import RefreshControllerViewCompo from './components/RefreshControllerViewCompo/RefreshControllerViewCompo';
+import StatusBarViewCompo from './components/StatusBarViewCompon/StatusBarViewCompo';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -66,6 +68,8 @@ const App = () => {
         <LinkingViewCompo/>
         <ModalViewCompo/>
         <PixelRatioViewCompo/>
+        <RefreshControllerViewCompo/>
+        <StatusBarViewCompo/>
       </ScrollView>
     </SafeAreaView>
   );
