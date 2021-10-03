@@ -20,6 +20,7 @@ import AnimatedViewComponent from './components/AnimatedViewComponent/AnimatedVi
 import DimensionViewComponent from './components/DimensionViewComponent/DimensionViewComponent';
 import KeyboardAvoidingViewCompo from './components/KeyboardAvoidingViewCompo/KeyboardAvoidingViewCompo';
 import LinkingViewCompo from './components/LinkingViewCompo/LinkingViewCompo';
+import ModalViewCompo from './components/ModalViewCompo/ModalViewCompo';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -62,6 +63,7 @@ const App = () => {
         <KeyboardAvoidingViewCompo/>
 
         <LinkingViewCompo/>
+        <ModalViewCompo/>
       </ScrollView>
     </SafeAreaView>
   );
