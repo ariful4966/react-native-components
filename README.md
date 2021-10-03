@@ -40,3 +40,5 @@
 - [x] Dimension
 - [x] KeyboardAvoidingView
 - [x] Linking
+- [x] Modal
+- [x] PixelRatio

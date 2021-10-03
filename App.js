@@ -21,6 +21,7 @@ import DimensionViewComponent from './components/DimensionViewComponent/Dimensio
 import KeyboardAvoidingViewCompo from './components/KeyboardAvoidingViewCompo/KeyboardAvoidingViewCompo';
 import LinkingViewCompo from './components/LinkingViewCompo/LinkingViewCompo';
 import ModalViewCompo from './components/ModalViewCompo/ModalViewCompo';
+import PixelRatioViewCompo from './components/PixelRatioViewCompo/PixelRatioViewCompo';
 
 const App = () => {
   const style = StyleSheet.create({
@@ -64,6 +65,7 @@ const App = () => {
 
         <LinkingViewCompo/>
         <ModalViewCompo/>
+        <PixelRatioViewCompo/>
       </ScrollView>
     </SafeAreaView>
   );
